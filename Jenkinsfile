@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("puneet1/puneet")
+        app = docker.build("gargp2/first")
     }
 
     stage('Test image') {
