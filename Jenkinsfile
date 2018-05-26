@@ -37,7 +37,7 @@ node {
         }
     }
     post {
-      success {
+      failure {
         mail bcc: '', body: '', cc: '', from: '', replyTo: '', subject: 'Jenkins job Success', to: 'pu.gcet@gmail.com'
   }
  }
