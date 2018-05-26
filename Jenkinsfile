@@ -33,9 +33,4 @@ node {
             app.push("latest")
         }
     }
-    post {
-      success {
-        mail bcc: '', body: '', cc: '', from: '', replyTo: '', subject: 'Jenkins job Success', to: 'pu.gcet@gmail.com'
-  }
- }
 }
