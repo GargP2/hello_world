@@ -1,6 +1,3 @@
-  options {
-    timestamps()
-  }
 node {
     def app
 
@@ -37,7 +34,7 @@ node {
         }
     }
     post {
-      failure {
+      success {
         mail bcc: '', body: '', cc: '', from: '', replyTo: '', subject: 'Jenkins job Success', to: 'pu.gcet@gmail.com'
   }
  }
