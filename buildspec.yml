@@ -6,5 +6,5 @@ phases:
        - echo "Hello World"
        - echo $LOGNAME
        - docker ps
-       - sudo docker build -t "myimage" .
+       - docker build -t "myimage" .
        - echo "Build Finish"
