@@ -4,5 +4,6 @@ phases:
   build:
     commands:
        - echo "Hello World"
-       - docker build -t "myimage" .
+       - sudo docker ps
+       - sudo docker build -t "myimage" .
        - echo "Build Finish"
